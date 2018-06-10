@@ -28,7 +28,7 @@ public class EdmondsKarp {
         }
         return FuxoMax;
     }
-    private static ArrayList<Vertices> buscaEmLargura(int[][] rGrafo, int s, int t) {
+    private ArrayList<Vertices> buscaEmLargura(int[][] rGrafo, int s, int t) {
 
         int numVs = rGrafo.length;
         boolean visited[] = new boolean[numVs];
